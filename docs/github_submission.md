@@ -2,7 +2,7 @@
 
 **Project repository:** https://github.com/Atharva-Ashish-Vyas/corporate-bankruptcy-prediction
 
-**Visibility action:** The team will change this repository to private in GitHub Settings > General > Danger Zone > Change visibility before formal submission, matching the assignment guidelines. GitHub may require email verification.
+**Visibility:** Private, verified on GitHub after uploading the project.
 
 ## Included files
 
