@@ -17,7 +17,7 @@ python -m pip install -r requirements-docs.txt
 python scripts/build_writeups.py
 ```
 
-Edit the title slide directly in PowerPoint if needed. Fill in the real contribution record in `docs/team_contributions.md`. Repository: https://github.com/Atharva-Ashish-Vyas/corporate-bankruptcy-prediction. The repository is private, matching the assignment guidelines. Invite the faculty and assigned TA using their course-provided GitHub accounts before review.
+Edit the title slide directly in PowerPoint if needed. Fill in the real contribution record in `docs/team_contributions.md`. Repository: https://github.com/Atharva-Ashish-Vyas/corporate-bankruptcy-prediction. The team will change repository visibility to private in GitHub Settings before formal submission, then invite faculty and the assigned TA using their course-provided accounts.
 
 ## Verification completed
 

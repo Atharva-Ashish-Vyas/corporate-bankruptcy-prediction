@@ -3,7 +3,7 @@
 | Requirement | Supplied material | Team action remaining |
 |---|---|---|
 | Working source code | Modular training, prediction CLI, local web app | Understand and rehearse |
-| Private GitHub repository | Complete folder, gitignore, CI, setup guide | Private repository prepared; verify faculty/TA access |
+| Private GitHub repository | Complete folder, gitignore, CI, setup guide | Change visibility to private; verify faculty/TA access |
 | Faculty/TA access | Exact steps in github_submission.md | Invite the supplied accounts |
 | README with setup/run instructions | README.md | Check on your own machine |
 | Short PDF write-up | Two-page report and one-page alternative | Confirm required length |

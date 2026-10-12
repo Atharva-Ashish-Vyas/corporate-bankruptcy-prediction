@@ -12,7 +12,7 @@ Source: reports/data_audit.json and the raw UCI file. 87 duplicates include two 
 
 ## Slide 4
 
-Source: src/bankruptcy/train.py, reports/experiment_config.json and reports/split_manifest.csv. A stratified 80/20 split uses seed 42. Development has 8,332 rows and 394 positives, test has 2,084 rows and 99 positives. All six models use the same 3 folds. Selection uses mean fold average precision. The selected modelâ€™s OOF scores set the F2 threshold. The model is refitted on all development rows and evaluated on the fixed test set. No test-driven changes are made.
+Source: src/bankruptcy/train.py, reports/experiment_config.json and reports/split_manifest.csv. A stratified 80/20 split uses seed 42. Development has 8,332 rows and 394 positives, test has 2,084 rows and 99 positives. All six models use the same 3 folds. Selection uses mean fold average precision. The selected model’s OOF scores set the F2 threshold. The model is refitted on all development rows and evaluated on the fixed test set. No test-driven changes are made.
 
 ## Slide 5
 
@@ -24,11 +24,11 @@ Source: reports/model_comparison.csv. Mean AP across the same 3 development fold
 
 ## Slide 7
 
-Source: reports/threshold_curve.csv and reports/metrics.json. OOF means out-of-fold predictions: each development row is scored by a model not fitted on that row. The threshold maximizes F2 on the selected modelâ€™s OOF scores. F2 = 5PR/(4P+R). The chosen threshold is 0.1979516978. This is a declared academic screening objective, not a monetary cost model. Because the same CV is used for selection, development scores can be optimistic; test results remain separate.
+Source: reports/threshold_curve.csv and reports/metrics.json. OOF means out-of-fold predictions: each development row is scored by a model not fitted on that row. The threshold maximizes F2 on the selected model’s OOF scores. F2 = 5PR/(4P+R). The chosen threshold is 0.1979516978. This is a declared academic screening objective, not a monetary cost model. Because the same CV is used for selection, development scores can be optimistic; test results remain separate.
 
 ## Slide 8
 
-Source: reports/metrics.json and reports/test_predictions.csv. Independent test counts are TN 1824, FP 161, FN 15, TP 84. Recall 84.85%, precision 34.29%, AP 0.7495, ROC AUC 0.9677. The all-negative baseline has 95.25% accuracy and zero recall. Approximate stratified bootstrap 95% recall interval: 77.8â€“91.9%; precision interval: 31.1â€“38.7%. These intervals condition on this fitted model and split.
+Source: reports/metrics.json and reports/test_predictions.csv. Independent test counts are TN 1824, FP 161, FN 15, TP 84. Recall 84.85%, precision 34.29%, AP 0.7495, ROC AUC 0.9677. The all-negative baseline has 95.25% accuracy and zero recall. Approximate stratified bootstrap 95% recall interval: 77.8–91.9%; precision interval: 31.1–38.7%. These intervals condition on this fitted model and split.
 
 ## Slide 9
 
