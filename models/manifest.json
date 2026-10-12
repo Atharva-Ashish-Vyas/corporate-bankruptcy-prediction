@@ -1,0 +1,11 @@
+{
+  "sha256": "5900ca02857ce0ea50820fbb225b67eaca9183d26ffea735b06f4465bc1ca35d",
+  "model": "Histogram gradient boosting",
+  "threshold": 0.19795169777758606,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.7.2"
+  }
+}

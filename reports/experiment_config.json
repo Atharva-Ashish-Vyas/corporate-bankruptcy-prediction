@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "test_fraction": 0.2,
+  "cv_folds": 3,
+  "selection_metric": "mean CV average precision",
+  "threshold_rule": "maximum development OOF F2",
+  "models": {
+    "Logistic regression": "Pipeline(steps=[('simpleimputer',\n                 SimpleImputer(add_indicator=True, strategy='median')),\n                ('functiontransformer',\n                 FunctionTransformer(feature_names_out='one-to-one',\n                                     func=<ufunc 'arcsinh'>)),\n                ('standardscaler', StandardScaler()),\n                ('logisticregression',\n                 LogisticRegression(C=1, class_weight='balanced', max_iter=2000,\n                                    random_state=42))])",
+    "Gaussian naive Bayes": "Pipeline(steps=[('simpleimputer',\n                 SimpleImputer(add_indicator=True, strategy='median')),\n                ('functiontransformer',\n                 FunctionTransformer(feature_names_out='one-to-one',\n                                     func=<ufunc 'arcsinh'>)),\n                ('standardscaler', StandardScaler()),\n                ('gaussiannb', GaussianNB(var_smoothing=1e-08))])",
+    "RBF support vector machine": "Pipeline(steps=[('simpleimputer',\n                 SimpleImputer(add_indicator=True, strategy='median')),\n                ('functiontransformer',\n                 FunctionTransformer(feature_names_out='one-to-one',\n                                     func=<ufunc 'arcsinh'>)),\n                ('standardscaler', StandardScaler()),\n                ('svc',\n                 SVC(C=3, class_weight='balanced', probability=True,\n                     random_state=42))])",
+    "Random forest": "Pipeline(steps=[('simpleimputer',\n                 SimpleImputer(add_indicator=True, strategy='median')),\n                ('randomforestclassifier',\n                 RandomForestClassifier(class_weight='balanced_subsample',\n                                        min_samples_leaf=2, n_estimators=300,\n                                        n_jobs=2, random_state=42))])",
+    "Extra trees": "Pipeline(steps=[('simpleimputer',\n                 SimpleImputer(add_indicator=True, strategy='median')),\n                ('extratreesclassifier',\n                 ExtraTreesClassifier(class_weight='balanced',\n                                      min_samples_leaf=2, n_estimators=300,\n                                      n_jobs=2, random_state=42))])",
+    "Histogram gradient boosting": "HistGradientBoostingClassifier(class_weight='balanced', early_stopping=False,\n                               l2_regularization=1, learning_rate=0.07,\n                               max_iter=250, max_leaf_nodes=15,\n                               random_state=42)"
+  }
+}

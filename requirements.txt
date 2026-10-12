@@ -1,0 +1,9 @@
+# Tested with Python 3.12.14. Pinning preserves the saved-model environment.
+numpy==2.3.5
+pandas==3.0.1
+scipy==1.16.2
+scikit-learn==1.7.2
+matplotlib==3.10.7
+joblib==1.5.2
+threadpoolctl==3.6.0
+Flask==3.1.2
