@@ -3,7 +3,7 @@
 **UE24CS352A - Machine Learning mini-project**  
 Predicting bankruptcy within three years from financial ratios, with an emphasis on rare-event detection and reproducible evaluation.
 
-![Local demonstration app](docs/assets/demo.jpg)
+![Current local demonstration app](docs/assets/demo-redesign.png)
 
 ## Team
 
@@ -71,7 +71,7 @@ Imputation and scaling are inside model pipelines and are fitted separately with
 
 ![Cross-validation comparison](reports/figures/model_comparison.png)
 
-## What to submit and push
+## Repository guide
 
 | Deliverable | Location |
 |---|---|
@@ -84,11 +84,10 @@ Imputation and scaling are inside model pipelines and are fitted separately with
 | Two-page write-up and one-page alternative | `deliverables/` |
 | Editable presentation and slide PDF | `deliverables/` |
 | Tests and GitHub Actions | `tests/`, `.github/workflows/tests.yml` |
-| GitHub upload and faculty sharing steps | `docs/github_submission.md` |
 | Demo script and Q&A preparation | `docs/demo_and_viva.md` |
 | Team contribution record | `docs/team_contributions.md` |
 
-Push the **contents of this repository folder**, including the hidden `.github`, `.gitignore`, and `.gitattributes` files. The dataset and selected model are small enough for ordinary Git. Do not push a virtual environment, caches, or uploaded company files.
+`MANIFEST.sha256` records SHA-256 hashes for the committed project files so the submission can be checked for accidental changes. `models/manifest.json` separately verifies the saved model at load time. Uploaded company files and local virtual environments are excluded from version control.
 
 ## Scope and limitations
 
