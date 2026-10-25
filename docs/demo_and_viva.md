@@ -2,7 +2,7 @@
 
 ## Five-minute demonstration
 
-1. Start `python app.py` and open http://127.0.0.1:5000. Explain that 1 means bankruptcy within three years.
+1. Start `python app.py` and open http://127.0.0.1:8000. Explain that 1 means bankruptcy within three years.
 2. Show the held-out results and confusion matrix. State 84 detected, 15 missed, and 161 false alarms. Explain why the majority baseline's 95.25% accuracy is insufficient.
 3. In the case selector, run “Detected bankruptcy” and “Correct non-bankruptcy.” Then show “Missed bankruptcy” or “False alarm” so the demonstration includes a real error.
 4. Download the sample CSV, upload it, and download predictions. Explain that all 64 columns are required but individual missing values are accepted.

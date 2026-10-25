@@ -43,7 +43,7 @@ python -m pip install -r requirements.txt
 python app.py
 ```
 
-Open **http://127.0.0.1:5000**. Choose a real held-out example, or upload `examples/sample_companies.csv`. The app scores the file and lets you download all predictions. Press Ctrl+C in the terminal to stop it.
+Open **http://127.0.0.1:8000**. Choose a real held-out example, or upload `examples/sample_companies.csv`. The app scores the file and lets you download all predictions. Press Ctrl+C in the terminal to stop it.
 
 On macOS/Linux, activate with `source .venv/bin/activate`. If PowerShell activation is restricted, run `.venv\Scripts\python.exe -m pip install -r requirements.txt` and `.venv\Scripts\python.exe app.py` directly.
 

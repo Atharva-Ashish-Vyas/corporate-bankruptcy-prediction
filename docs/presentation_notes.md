@@ -44,7 +44,7 @@ Source: reports/feature_importance.csv and UCI variable definitions. Permutation
 
 ## Slide 12
 
-Source: the local Flask application in app.py and templates/index.html. Screenshot captured from the running local app. Start python app.py, open http://127.0.0.1:5000, run a detected-bankruptcy case and an error case, then upload examples/sample_companies.csv. The saved model and checksum are included, so retraining is not required for the demo. Backend tests cover valid and invalid CSV inputs.
+Source: the local Flask application in app.py and templates/index.html. Screenshot captured from the running local app. Start python app.py, open http://127.0.0.1:8000, run a detected-bankruptcy case and an error case, then upload examples/sample_companies.csv. The saved model and checksum are included, so retraining is not required for the demo. Backend tests cover valid and invalid CSV inputs.
 
 ## Slide 13
 
